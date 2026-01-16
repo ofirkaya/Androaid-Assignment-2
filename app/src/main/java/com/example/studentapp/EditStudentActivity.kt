@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
-import missing.namespace.R
 
 class EditStudentActivity : AppCompatActivity() {
     private lateinit var studentId: String
