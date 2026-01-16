@@ -4,6 +4,7 @@ plugins {
 }
 
 android {
+    namespace 'com.example.studentapp'
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
 
