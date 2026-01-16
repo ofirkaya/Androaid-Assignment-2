@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Students App</string>
+    <string name="add_student">Add Student</string>
+    <string name="student_name">Name</string>
+    <string name="student_id">ID</string>
+    <string name="student_phone">Phone</string>
+    <string name="student_address">Address</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+</resources>
