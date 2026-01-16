@@ -3,6 +3,15 @@ package com.example.studentapp
 object StudentRepository {
     private val students = mutableListOf<Student>()
 
+    // Initialize with sample data for testing
+    init {
+        addStudent(Student("123456", "John Doe", "050-1234567", "Tel Aviv"))
+        addStudent(Student("234567", "Jane Smith", "052-9876543", "Jerusalem"))
+        addStudent(Student("345678", "Bob Johnson", "054-5555555", "Haifa"))
+        addStudent(Student("456789", "Alice Williams", "053-1111111", "Beer Sheva"))
+        addStudent(Student("567890", "Charlie Brown", "050-9999999", "Netanya"))
+    }
+
     fun addStudent(student: Student) {
         students.add(student)
     }
