@@ -16,19 +16,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
-        <!-- Placeholder activities for Person 2 -->
+
         <activity
             android:name=".NewStudentActivity"
-            android:exported="false" />
+            android:exported="true" />
         
         <activity
             android:name=".StudentDetailsActivity"
-            android:exported="false" />
+            android:exported="true" />
         
         <activity
             android:name=".EditStudentActivity"
-            android:exported="false" />
+            android:exported="true" />
             
     </application>
 
